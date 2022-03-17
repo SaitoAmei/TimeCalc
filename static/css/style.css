@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(-60deg, lightblue,pink);
+	font-family: 'Smooch Sans', sans-serif;
+}
+
+.calculator{
+	margin: 100px auto;
+	width: 368px;
+	height: 600px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.75);
+}
+.header{
+	height: 90px;
+	padding-top: 37px;
+	padding-bottom: 27px;
+	padding-right: 29px;
+	padding-left: 29px;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: right;
+}
+
+.account{
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: pink;
+	font-size: 18px;
+	text-align: right;
+}
+.account::placeholder{
+	color: pink;
+}
+
+.result{
+	width: 100%;
+	margin-top: 18px;
+	text-align: right;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 60px;
+	color: #ede1f2;
+}
+
+.result::placeholder{
+	color: #ede1f2;
+}
+
+.main{
+	height: 500px;
+	display: table;
+}
+
+.button{
+	width: 92px;
+	height: 92px;
+	padding: 39px;
+	outline: none;
+	border: lightblue;
+	border-style: solid;
+	border-radius: 5px;
+	background-image: #f3edf5;
+	font-size: 22px;
+	color: black;
+}
+
+.button_big{
+	width: 276px;
+	height: 92px;
+	padding: 39px;
+	font-size: 30px;
+	position: absolute;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background-color: #46cce0;
+}
+
+.btn{
+	color: #fff;
+	background-image: none;
+	background-color: #eb579c;
+}
+
+button:hover{
+	filter: brightness(90%);
+
+}
+.type{
+	margin: 30px;
+	height: 50px;
+	width: 90px;
+	outline: none;
+	border: lightblue;
+	border-radius: 6px;
+	background-image: #f3edf5;
+	font-size: 18px;
+	color: black;
+}
+
+.check{
+	margin: 50px;
+	width: 70px;
+	height: 5px;
+	padding-left: 30px;
+	padding-top: 0px;
+}

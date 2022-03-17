@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="static/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e6387866bc.js" crossorigin="anonymous"></script>
+	<title>Calcusus</title>
+</head>
+<body>
+	<div class = "check">
+		<button style="color: lightpink; border: none; height: 150px;"></button>
+		<h1 style="font-size: 30;">Input type :</h1>
+		<button onclick="define('hour')" class="type">Hour</button>
+		<button onclick="define('minutes')" class="type">Minutes</button>
+		<button onclick="define('seconds')" class="type">Seconds</button>
+	</div>
+	<div class="calculator">
+		<div class="header">
+			<input type="text" placeholder="0,00" class="account" readonly>
+			<input type="text" placeholder ="0,00" class="result" readonly>
+		</div>
+		<div class="main">
+			<button onclick="to_hour()" class="button">To hour</button>
+			<button onclick="to_minutes()" class="button">To min</button>
+			<button onclick="to_seconds()" class="button">To sec</button>
+			<button onclick="input('+')" class="button btn">+</button>
+			<button onclick="input('0')" class="button">0</button>
+			<button onclick="reset()" class="button">C</button>
+			<button  onclick="backspace()" class="button"><i class="fa-solid fa-delete-left"></i></button>
+			<button onclick="input('-')" class="button btn">-</button>
+			<button onclick="input('7')" class="button">7</button>
+			<button onclick="input('8')"  class="button">8</button>
+			<button onclick="input('9')" class="button">9</button>
+			<button onclick="input('*')" class="button btn">*</button>
+			<button onclick="input('4')" class="button">4</button>
+			<button onclick="input('5')" class="button">5</button>
+			<button onclick="input('6')" class="button">6</button>
+			<button onclick="input('/')" class="button btn">/</button>
+			<button onclick="input('1')" class="button">1</button>
+			<button onclick="input('2')" class="button">2</button>
+			<button onclick="input('3')" class="button">3</button>
+			<button onclick="input('%')" class="button btn">%</button>
+			<button onclick="input('.')" class="button">.</button>
+			<button onclick="result()" class="button_big">=</button>
+		</div>
+	</div>
+<script src="static/js/script.js" ></script>
+</body>
+</html>
